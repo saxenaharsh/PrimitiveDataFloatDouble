@@ -12,5 +12,9 @@ public class Main {
         System.out.println("My Float value = " + myFloatNumber);
         System.out.println("My Double value = " + myDoubleNumber);
 
+        double myPoundValue = 200d;
+        double myKiloValue = (myPoundValue * 0.45359237);
+        System.out.println("Six pounds is equal to " + myKiloValue + " Kilograms");
+
     }
 }
